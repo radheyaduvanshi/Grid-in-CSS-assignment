@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr; /*Define two explicit columns*/
+          grid-template-rows: 100px;    /* Define one explicit row*/
+          grid-auto-rows: 50px;          /*Define the size for auto-generated rows*/
+           grid-auto-columns: 1fr;       /* Define the size for auto-generated columns */
+           grid-gap: 10px;
+          width: 300px;
+        }
+   
+        .grid-item {
+          background-color: #3498db;
+          color: white;
+          padding: 10px;
+          text-align: center;
+        } 
+      </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+        <div class="grid-item">Item 4</div>
+        <div class="grid-item">Item 5</div>
+        <div class="grid-item">Item 6</div>
+        <div class="grid-item">Item 7</div>
+        <div class="grid-item">Item 8</div>
+      </div>
+</body>
+</html>
+
+
+

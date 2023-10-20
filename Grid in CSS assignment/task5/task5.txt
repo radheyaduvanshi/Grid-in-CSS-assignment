@@ -1,0 +1,12 @@
+Justify-items and justify-self are CSS properties used to control the alignment of items within a grid or a flex container. However, they work at different levels and 
+serve different purposes:
+
+Justify-items:
+justify-items is used to align all the items (grid items or flex items) within a container along the inline axis (the direction in which text flows, usually horizontal).
+It is applied to the container (the parent element), and it sets the alignment for all the items inside that container.
+It accepts values like start, end, center, stretch, etc.which determine how items should be aligned within the container along the inline axis.
+
+Justify-self:
+Justify-self is used to align an individual grid item or flex item within a container. It allows you to control the alignment of a specific item within the container.
+It is applied to the individual item, and it overrides the alignment set by justify-items on the container for that specific item.
+Like justify-items, it also accepts values like start, end, center, stretch, etc. to determine how the specific item should be aligned along the inline axis.

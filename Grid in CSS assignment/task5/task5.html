@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: brown;
+            height: 100px;
+            width: 500px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center; /* This sets the default horizontal alignment for all items in the container. */
+        }
+      
+       .item {
+            width: 100px;
+            height: 50px;
+            background-color: lightblue;
+            border: 1px solid darkblue;
+            text-align: center;
+        }
+        .container :nth-child(2){
+            justify-self: end;
+        }
+      
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </div>
+</body>
+</html>
